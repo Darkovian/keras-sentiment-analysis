@@ -2,7 +2,7 @@
 A simple python implementation of sentiment analysis using Keras and TensorFlow.
 
 A quick (and very basic) introduction: Sentiment analysis is essentially taking data in natural language format (tweets, product reviews, conversations, etc) and generating a sentiment for that data. For the purposes of this project the categories are very basic: positive or negative. This project leverages machine learning by training a model using Keras and TensorFlow that is able to categorize a snippet of natural language (such as a sentence, tweet, etc) as having a positive sentiment or a negative sentiment.
-  Example: The sentence 'I really hate Monday' has a negative sentiment while the sentence 'I'm feeling the love right now!' has a positive sentiment.
+  Example: The sentence "I really hate Monday" has a negative sentiment while the sentence "I'm feeling the love right now!" has a positive sentiment.
 
 Requirements:
 
