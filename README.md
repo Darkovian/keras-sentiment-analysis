@@ -9,4 +9,4 @@ Instructions:
   1. If you want to generate the model on your local machine, run sent-a.py to generate the dictionary and the model. Otherwise download dictionary.json, 1000w-model.json, and 1000w-model.h5 and save them in the same folder as sent-predict.py.
   2. You can now run sent-predict.py and input test tweets/sentences
   
- This implementation is very basic, the logical evolution from here would be to train a model using word embeddings (such as GloVe or Google's Word2Vec). I will have such a repository up soon.
+ This model attains ~76% accuracy. Not bad for the relatively simple approach and the low word count (this model only uses the most popular 1000 words from the Twitter Sentiment Analysis Training Corpus Dataset). The logical evolution from here would be to train a model using word embeddings (such as GloVe or Google's Word2Vec). I will have such a repository up soon.
